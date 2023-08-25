@@ -1,6 +1,6 @@
 # VintaSoft WinForms PDF Drawing Demo
 
-This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to draw graphics on PDF page in WinForms:
+This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to draw graphics on PDF page:
 * Draw graphic primitives on PDF page.
 * Draw graphic figures on PDF page.
 * Generate reports on the fly.

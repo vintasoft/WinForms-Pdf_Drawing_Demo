@@ -8,7 +8,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-pdf-drawing-demo.png" alt="VintaSoft PDF Drawing Demo">
+<img src="vintasoft-pdf-drawing-demo.png" title="VintaSoft PDF Drawing Demo">
 
 
 ## Usage

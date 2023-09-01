@@ -8,6 +8,9 @@ using Vintasoft.Imaging.Pdf.Drawing.GraphicsFigures;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 using Vintasoft.Imaging.Utils;
+using Vintasoft.Imaging.Fonts;
+using System.IO;
+using Vintasoft.Imaging.Pdf;
 
 namespace DemosCommonCode.Pdf.Security
 {
@@ -95,7 +98,7 @@ namespace DemosCommonCode.Pdf.Security
             set
             {
                 _signerNameFigure.Font = value;
-                _textFigure.Font = value;
+                _textFigure.Font = value;                
             }
         }
 
@@ -187,10 +190,11 @@ namespace DemosCommonCode.Pdf.Security
             set
             {
                 _textFigure.Text = value;
+                Font = CreateSubsetIfNeed(value + _signerNameFigure.Text, Font);
                 OnChanged();
             }
         }
-
+       
         /// <summary>
         /// Gets or sets the signature image.
         /// </summary>
@@ -298,6 +302,26 @@ namespace DemosCommonCode.Pdf.Security
             typedTarget.Add(typedTarget._textFigure);
             typedTarget.Add(typedTarget._signatureImageFigure);
             typedTarget.Add(typedTarget._signerNameFigure);
+        }
+
+        private PdfFont CreateSubsetIfNeed(string text, PdfFont font)
+        {
+            text = text.Replace("\r", "");
+            text = text.Replace("\n", "");
+            if (!font.CanEncodeText(text))
+            {
+                using (FontProgramSearchResult searchResult = FontProgramsControllerBase.Default.GetTrueTypeFontProgram(new PdfFontInfo(font, font.FontName)))
+                {
+                    if (searchResult.ContainsFontProgram)
+                    {
+                        PdfDocument tempDocument = new PdfDocument();
+                        PdfFont tempFont = tempDocument.FontManager.CreateCIDFontFromTrueTypeFont(searchResult.FontProgramStream);
+                        tempDocument.FontManager.PackFont(tempFont, text);
+                        return tempFont; 
+                    }
+                }
+            }
+            return font;
         }
 
         /// <summary>

@@ -190,7 +190,8 @@ namespace DemosCommonCode.Pdf.Security
             set
             {
                 _textFigure.Text = value;
-                Font = CreateSubsetIfNeed(value + _signerNameFigure.Text, Font);
+                if (Font != null)
+                    Font = CreateSubsetIfNeed(value + _signerNameFigure.Text, Font);
                 OnChanged();
             }
         }
@@ -304,6 +305,12 @@ namespace DemosCommonCode.Pdf.Security
             typedTarget.Add(typedTarget._signerNameFigure);
         }
 
+        /// <summary>
+        /// Creates the subset if need.
+        /// </summary>
+        /// <param name="text">The text.</param>
+        /// <param name="font">The font.</param>
+        /// <returns>The font or font subset.</returns>
         private PdfFont CreateSubsetIfNeed(string text, PdfFont font)
         {
             text = text.Replace("\r", "");

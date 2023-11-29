@@ -48,6 +48,8 @@ namespace DemosCommonCode.Pdf
             this.fromPDFDocumentRadioButton = new System.Windows.Forms.RadioButton();
             this.openTTFFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.openPdfDocumentDialog = new System.Windows.Forms.OpenFileDialog();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -57,16 +59,19 @@ namespace DemosCommonCode.Pdf
             this.fontTypeGroupBox.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.AutoSize = true;
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(634, 454);
+            this.panel1.Size = new System.Drawing.Size(637, 466);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -74,9 +79,9 @@ namespace DemosCommonCode.Pdf
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 68);
+            this.panel3.Location = new System.Drawing.Point(0, 71);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(634, 386);
+            this.panel3.Size = new System.Drawing.Size(637, 395);
             this.panel3.TabIndex = 1;
             // 
             // panel5
@@ -85,7 +90,7 @@ namespace DemosCommonCode.Pdf
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(634, 352);
+            this.panel5.Size = new System.Drawing.Size(637, 361);
             this.panel5.TabIndex = 1;
             // 
             // panel6
@@ -96,7 +101,7 @@ namespace DemosCommonCode.Pdf
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(634, 352);
+            this.panel6.Size = new System.Drawing.Size(637, 361);
             this.panel6.TabIndex = 19;
             // 
             // pdfFontViewerControl
@@ -109,7 +114,7 @@ namespace DemosCommonCode.Pdf
             this.pdfFontViewerControl.Location = new System.Drawing.Point(0, 0);
             this.pdfFontViewerControl.Name = "pdfFontViewerControl";
             this.pdfFontViewerControl.PdfFont = null;
-            this.pdfFontViewerControl.Size = new System.Drawing.Size(630, 46);
+            this.pdfFontViewerControl.Size = new System.Drawing.Size(633, 46);
             this.pdfFontViewerControl.TabIndex = 0;
             this.pdfFontViewerControl.Text = "pdfFontViewerControl1";
             // 
@@ -118,16 +123,16 @@ namespace DemosCommonCode.Pdf
             this.panel4.Controls.Add(this.buttonCancel);
             this.panel4.Controls.Add(this.buttonOk);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 352);
+            this.panel4.Location = new System.Drawing.Point(0, 361);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(634, 34);
+            this.panel4.Size = new System.Drawing.Size(637, 34);
             this.panel4.TabIndex = 0;
             // 
             // buttonCancel
             // 
             this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(547, 6);
+            this.buttonCancel.Location = new System.Drawing.Point(550, 6);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 17;
@@ -139,7 +144,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.buttonOk.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonOk.Location = new System.Drawing.Point(466, 6);
+            this.buttonOk.Location = new System.Drawing.Point(469, 6);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
             this.buttonOk.TabIndex = 16;
@@ -149,27 +154,32 @@ namespace DemosCommonCode.Pdf
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.fontTypeGroupBox);
-            this.panel2.Controls.Add(this.groupBox2);
-            this.panel2.Controls.Add(this.groupBox1);
+            this.panel2.AutoSize = true;
+            this.panel2.Controls.Add(this.tableLayoutPanel2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(634, 68);
+            this.panel2.Size = new System.Drawing.Size(637, 71);
             this.panel2.TabIndex = 0;
             // 
             // fontTypeGroupBox
             // 
+            this.fontTypeGroupBox.AutoSize = true;
+            this.fontTypeGroupBox.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.fontTypeGroupBox.Controls.Add(this.fontTypeComboBox);
-            this.fontTypeGroupBox.Location = new System.Drawing.Point(487, 4);
+            this.fontTypeGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fontTypeGroupBox.Location = new System.Drawing.Point(483, 3);
+            this.fontTypeGroupBox.MinimumSize = new System.Drawing.Size(150, 60);
             this.fontTypeGroupBox.Name = "fontTypeGroupBox";
-            this.fontTypeGroupBox.Size = new System.Drawing.Size(144, 60);
+            this.fontTypeGroupBox.Size = new System.Drawing.Size(151, 65);
             this.fontTypeGroupBox.TabIndex = 22;
             this.fontTypeGroupBox.TabStop = false;
             this.fontTypeGroupBox.Text = "Type of new Font";
             // 
             // fontTypeComboBox
             // 
+            this.fontTypeComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.fontTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fontTypeComboBox.FormattingEnabled = true;
             this.fontTypeComboBox.Items.AddRange(new object[] {
@@ -177,39 +187,43 @@ namespace DemosCommonCode.Pdf
             "CID Font (Composite)"});
             this.fontTypeComboBox.Location = new System.Drawing.Point(6, 22);
             this.fontTypeComboBox.Name = "fontTypeComboBox";
-            this.fontTypeComboBox.Size = new System.Drawing.Size(132, 21);
+            this.fontTypeComboBox.Size = new System.Drawing.Size(139, 21);
             this.fontTypeComboBox.TabIndex = 14;
             this.fontTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.fontTypeComboBox_SelectedIndexChanged);
             // 
             // groupBox2
             // 
+            this.groupBox2.AutoSize = true;
+            this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox2.Controls.Add(this.fontsComboBox);
-            this.groupBox2.Location = new System.Drawing.Point(278, 4);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Location = new System.Drawing.Point(277, 3);
+            this.groupBox2.MinimumSize = new System.Drawing.Size(200, 60);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(203, 60);
+            this.groupBox2.Size = new System.Drawing.Size(200, 65);
             this.groupBox2.TabIndex = 21;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Source Font";
             // 
             // fontsComboBox
             // 
+            this.fontsComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.fontsComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fontsComboBox.FormattingEnabled = true;
             this.fontsComboBox.Location = new System.Drawing.Point(5, 23);
             this.fontsComboBox.Name = "fontsComboBox";
-            this.fontsComboBox.Size = new System.Drawing.Size(192, 21);
+            this.fontsComboBox.Size = new System.Drawing.Size(189, 21);
             this.fontsComboBox.TabIndex = 13;
             this.fontsComboBox.SelectedIndexChanged += new System.EventHandler(this.fontsComboBox_SelectedIndexChanged);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.standardFontRadioButton);
-            this.groupBox1.Controls.Add(this.systemFontRadioButton);
-            this.groupBox1.Controls.Add(this.fromTTFRadioButton);
-            this.groupBox1.Controls.Add(this.fromPDFDocumentRadioButton);
-            this.groupBox1.Location = new System.Drawing.Point(3, 4);
+            this.groupBox1.AutoSize = true;
+            this.groupBox1.Controls.Add(this.tableLayoutPanel1);
+            this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(269, 60);
+            this.groupBox1.Size = new System.Drawing.Size(268, 65);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Fonts Source";
@@ -217,7 +231,7 @@ namespace DemosCommonCode.Pdf
             // standardFontRadioButton
             // 
             this.standardFontRadioButton.AutoSize = true;
-            this.standardFontRadioButton.Location = new System.Drawing.Point(6, 15);
+            this.standardFontRadioButton.Location = new System.Drawing.Point(3, 3);
             this.standardFontRadioButton.Name = "standardFontRadioButton";
             this.standardFontRadioButton.Size = new System.Drawing.Size(97, 17);
             this.standardFontRadioButton.TabIndex = 19;
@@ -228,7 +242,7 @@ namespace DemosCommonCode.Pdf
             // systemFontRadioButton
             // 
             this.systemFontRadioButton.AutoSize = true;
-            this.systemFontRadioButton.Location = new System.Drawing.Point(121, 15);
+            this.systemFontRadioButton.Location = new System.Drawing.Point(116, 3);
             this.systemFontRadioButton.Name = "systemFontRadioButton";
             this.systemFontRadioButton.Size = new System.Drawing.Size(143, 17);
             this.systemFontRadioButton.TabIndex = 14;
@@ -239,7 +253,7 @@ namespace DemosCommonCode.Pdf
             // fromTTFRadioButton
             // 
             this.fromTTFRadioButton.AutoSize = true;
-            this.fromTTFRadioButton.Location = new System.Drawing.Point(121, 37);
+            this.fromTTFRadioButton.Location = new System.Drawing.Point(116, 26);
             this.fromTTFRadioButton.Name = "fromTTFRadioButton";
             this.fromTTFRadioButton.Size = new System.Drawing.Size(123, 17);
             this.fromTTFRadioButton.TabIndex = 15;
@@ -250,7 +264,7 @@ namespace DemosCommonCode.Pdf
             // fromPDFDocumentRadioButton
             // 
             this.fromPDFDocumentRadioButton.AutoSize = true;
-            this.fromPDFDocumentRadioButton.Location = new System.Drawing.Point(6, 37);
+            this.fromPDFDocumentRadioButton.Location = new System.Drawing.Point(3, 26);
             this.fromPDFDocumentRadioButton.Name = "fromPDFDocumentRadioButton";
             this.fromPDFDocumentRadioButton.Size = new System.Drawing.Size(107, 17);
             this.fromPDFDocumentRadioButton.TabIndex = 18;
@@ -268,12 +282,51 @@ namespace DemosCommonCode.Pdf
             this.openPdfDocumentDialog.DefaultExt = "pdf";
             this.openPdfDocumentDialog.Filter = "PDF Documents (*.pdf)|*.pdf";
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.standardFontRadioButton, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.fromTTFRadioButton, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.systemFontRadioButton, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.fromPDFDocumentRadioButton, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(262, 46);
+            this.tableLayoutPanel1.TabIndex = 18;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.AutoSize = true;
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.Controls.Add(this.groupBox2, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.fontTypeGroupBox, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.groupBox1, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(637, 71);
+            this.tableLayoutPanel2.TabIndex = 14;
+            // 
             // CreateFontForm
             // 
             this.AcceptButton = this.buttonOk;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(634, 454);
+            this.ClientSize = new System.Drawing.Size(637, 466);
             this.Controls.Add(this.panel1);
             this.MinimizeBox = false;
             this.Name = "CreateFontForm";
@@ -282,16 +335,23 @@ namespace DemosCommonCode.Pdf
             this.Text = "Create new PDF font";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.createFontForm_FormClosing);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.fontTypeGroupBox.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -317,6 +377,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.GroupBox fontTypeGroupBox;
         private System.Windows.Forms.ComboBox fontTypeComboBox;
         private System.Windows.Forms.GroupBox groupBox2;
-
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

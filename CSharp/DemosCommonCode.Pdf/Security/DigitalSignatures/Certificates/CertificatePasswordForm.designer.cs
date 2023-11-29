@@ -56,16 +56,16 @@ namespace DemosCommonCode.Pdf.Security
             // passwordTextBox
             // 
             this.passwordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.passwordTextBox.Location = new System.Drawing.Point(99, 29);
+            this.passwordTextBox.Location = new System.Drawing.Point(12, 50);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
-            this.passwordTextBox.Size = new System.Drawing.Size(192, 23);
+            this.passwordTextBox.Size = new System.Drawing.Size(279, 23);
             this.passwordTextBox.TabIndex = 2;
             // 
             // buttonOk
             // 
             this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonOk.Location = new System.Drawing.Point(135, 63);
+            this.buttonOk.Location = new System.Drawing.Point(135, 92);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 26);
             this.buttonOk.TabIndex = 3;
@@ -76,7 +76,7 @@ namespace DemosCommonCode.Pdf.Security
             // buttonCancel
             // 
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(216, 63);
+            this.buttonCancel.Location = new System.Drawing.Point(216, 92);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 26);
             this.buttonCancel.TabIndex = 4;
@@ -89,7 +89,7 @@ namespace DemosCommonCode.Pdf.Security
             this.AcceptButton = this.buttonOk;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(303, 98);
+            this.ClientSize = new System.Drawing.Size(303, 130);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.passwordTextBox);

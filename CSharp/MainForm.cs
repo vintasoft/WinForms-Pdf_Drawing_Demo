@@ -282,7 +282,7 @@ namespace PdfDrawingDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of SaveAsToolStripMenuItem object.
+        /// Handles the Click event of saveAsToolStripMenuItem object.
         /// </summary>
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -294,7 +294,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ViewInPDFReaderToolStripMenuItem object.
+        /// Handles the Click event of viewInPDFReaderToolStripMenuItem object.
         /// </summary>
         private void viewInPDFReaderToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -318,7 +318,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -331,7 +331,7 @@ namespace PdfDrawingDemo
         #region 'PdfGraphics' menu
 
         /// <summary>
-        /// Handles the Click event of RandomPrimitivesToolStripMenuItem object.
+        /// Handles the Click event of randomPrimitivesToolStripMenuItem object.
         /// </summary>
         private void randomPrimitivesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -356,7 +356,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TranslateToolStripMenuItem object.
+        /// Handles the Click event of translateToolStripMenuItem object.
         /// </summary>
         private void translateToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -371,7 +371,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ScaleToolStripMenuItem object.
+        /// Handles the Click event of scaleToolStripMenuItem object.
         /// </summary>
         private void scaleToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -387,7 +387,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RotateToolStripMenuItem object.
+        /// Handles the Click event of rotateToolStripMenuItem object.
         /// </summary>
         private void rotateToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -411,7 +411,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RotateAtToolStripMenuItem object.
+        /// Handles the Click event of rotateAtToolStripMenuItem object.
         /// </summary>
         private void rotateAtToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -436,7 +436,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of GraphicsStateToolStripMenuItem object.
+        /// Handles the Click event of graphicsStateToolStripMenuItem object.
         /// </summary>
         private void graphicsStateToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -469,7 +469,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SetClipToolStripMenuItem object.
+        /// Handles the Click event of setClipToolStripMenuItem object.
         /// </summary>
         private void setClipToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -493,7 +493,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DrawStringToolStripMenuItem object.
+        /// Handles the Click event of drawStringToolStripMenuItem object.
         /// </summary>
         private void drawStringToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -527,7 +527,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DrawStringAlignmentTestToolStripMenuItem object.
+        /// Handles the Click event of drawStringAlignmentTestToolStripMenuItem object.
         /// </summary>
         private void drawStringAlignmentTestToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -564,7 +564,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of MeasureStringToolStripMenuItem object.
+        /// Handles the Click event of measureStringToolStripMenuItem object.
         /// </summary>
         private void measureStringToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -615,7 +615,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TcTwTsToolStripMenuItem object.
+        /// Handles the Click event of tcTwTsToolStripMenuItem object.
         /// </summary>
         private void tcTwTsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -672,7 +672,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TilingPatternToolStripMenuItem object.
+        /// Handles the Click event of tilingPatternToolStripMenuItem object.
         /// </summary>
         private void tilingPatternToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -704,7 +704,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of LinearGradientToolStripMenuItem object.
+        /// Handles the Click event of linearGradientToolStripMenuItem object.
         /// </summary>
         private void linearGradientToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -749,7 +749,7 @@ namespace PdfDrawingDemo
         #region 'Interactive Form Fields' menu
 
         /// <summary>
-        /// Handles the Click event of ButtonToolStripMenuItem object.
+        /// Handles the Click event of buttonToolStripMenuItem object.
         /// </summary>
         private void buttonToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -767,7 +767,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TextToolStripMenuItem object.
+        /// Handles the Click event of textToolStripMenuItem object.
         /// </summary>
         private void textToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -785,7 +785,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ListBoxToolStripMenuItem object.
+        /// Handles the Click event of listBoxToolStripMenuItem object.
         /// </summary>
         private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -803,7 +803,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CheckBoxRadioButtonsToolStripMenuItem object.
+        /// Handles the Click event of checkBoxRadioButtonsToolStripMenuItem object.
         /// </summary>
         private void checkBoxRadioButtonsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -821,7 +821,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DigitalSignatureToolStripMenuItem object.
+        /// Handles the Click event of digitalSignatureToolStripMenuItem object.
         /// </summary>
         private void digitalSignatureToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -839,7 +839,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of BarcodeFieldsToolStripMenuItem object.
+        /// Handles the Click event of barcodeFieldsToolStripMenuItem object.
         /// </summary>
         private void barcodeFieldsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -866,7 +866,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TestActionsToolStripMenuItem object.
+        /// Handles the Click event of testActionsToolStripMenuItem object.
         /// </summary>
         private void testActionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -904,7 +904,7 @@ namespace PdfDrawingDemo
         #region 'Table' menu
 
         /// <summary>
-        /// Handles the Click event of ColorTableToolStripMenuItem object.
+        /// Handles the Click event of colorTableToolStripMenuItem object.
         /// </summary>
         private void colorTableToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -922,7 +922,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of FontSymbolsToolStripMenuItem1 object.
+        /// Handles the Click event of fontSymbolsToolStripMenuItem1 object.
         /// </summary>
         private void fontSymbolsToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -959,7 +959,7 @@ namespace PdfDrawingDemo
         #region 'Test' menu
 
         /// <summary>
-        /// Handles the Click event of AlignmentPanelElementContentAlignmentToolStripMenuItem object.
+        /// Handles the Click event of alignmentPanelElementContentAlignmentToolStripMenuItem object.
         /// </summary>
         private void alignmentPanelElementContentAlignmentToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -997,7 +997,7 @@ namespace PdfDrawingDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OptionalContentToolStripMenuItem object.
+        /// Handles the Click event of optionalContentToolStripMenuItem object.
         /// </summary>
         private void optionalContentToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1118,7 +1118,7 @@ namespace PdfDrawingDemo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {

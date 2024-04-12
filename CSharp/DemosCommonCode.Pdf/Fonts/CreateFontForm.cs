@@ -156,7 +156,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the Click event of ButtonCancel object.
+        /// Handles the Click event of buttonCancel object.
         /// </summary>
         private void buttonCancel_Click(object sender, EventArgs e)
         {
@@ -164,7 +164,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ButtonOk object.
+        /// Handles the Click event of buttonOk object.
         /// </summary>
         private void buttonOk_Click(object sender, EventArgs e)
         {
@@ -240,7 +240,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of FontsComboBox object.
+        /// Handles the SelectedIndexChanged event of fontsComboBox object.
         /// </summary>
         private void fontsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -249,7 +249,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of FromTTFRadioButton object.
+        /// Handles the CheckedChanged event of fromTTFRadioButton object.
         /// </summary>
         private void fromTTFRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -299,7 +299,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of SystemFontRadioButton object.
+        /// Handles the CheckedChanged event of systemFontRadioButton object.
         /// </summary>
         private void systemFontRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -330,7 +330,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the FormClosing event of CreateFontForm object.
+        /// Handles the FormClosing event of createFontForm object.
         /// </summary>
         private void createFontForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -339,7 +339,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of FromPDFDocumentRadioButton object.
+        /// Handles the CheckedChanged event of fromPDFDocumentRadioButton object.
         /// </summary>
         private void fromPDFDocumentRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -422,7 +422,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of StandardFontRadioButton object.
+        /// Handles the CheckedChanged event of standardFontRadioButton object.
         /// </summary>
         private void standardFontRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -445,7 +445,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of FontTypeComboBox object.
+        /// Handles the SelectedIndexChanged event of fontTypeComboBox object.
         /// </summary>
         private void fontTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {

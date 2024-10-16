@@ -13,9 +13,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("VintaSoft PDF Drawing Demo")]
 [assembly: AssemblyDescription("Shows how to generate PDF reports on the fly.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("VintaSoft Ltd.")]
+[assembly: AssemblyCompany("VintaSoft Llc.")]
 [assembly: AssemblyProduct("VintaSoft Imaging .NET SDK")]
-[assembly: AssemblyCopyright("Copyright VintaSoft Ltd. 2024")]
+[assembly: AssemblyCopyright("Copyright VintaSoft Llc. 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

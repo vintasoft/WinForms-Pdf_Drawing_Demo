@@ -314,18 +314,21 @@ namespace DemosCommonCode.Pdf
 
                 // get system font names
                 string[] fontNames = CustomFontProgramsController.GetSystemInstalledFontNames();
-                // for each font in name
-                foreach (string fontName in fontNames)
+                if (fontNames.Length > 0)
                 {
-                    // skip font collections
-                    string fontFilename = CustomFontProgramsController.GetSystemInstalledFontFileName(fontName);
-                    if (Path.GetExtension(fontFilename).ToUpperInvariant() == ".TTC")
-                        continue;
+                    // for each font in name
+                    foreach (string fontName in fontNames)
+                    {
+                        // skip font collections
+                        string fontFilename = CustomFontProgramsController.GetSystemInstalledFontFileName(fontName);
+                        if (Path.GetExtension(fontFilename).ToUpperInvariant() == ".TTC")
+                            continue;
 
-                    // add font name to the fonts combo box
-                    fontsComboBox.Items.Add(fontName);
+                        // add font name to the fonts combo box
+                        fontsComboBox.Items.Add(fontName);
+                    }
+                    fontsComboBox.SelectedIndex = 0;
                 }
-                fontsComboBox.SelectedIndex = 0;
             }
         }
 

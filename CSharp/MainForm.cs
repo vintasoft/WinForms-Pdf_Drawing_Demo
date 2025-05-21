@@ -86,6 +86,9 @@ namespace PdfDrawingDemo
 
             DemosTools.CatchVisualToolExceptions(imageViewer1);
 
+            // set CustomFontProgramsController for all PDF documents
+            CustomFontProgramsController.SetDefaultFontProgramsController();
+
             Text = Title;
 
             imageViewer1.SizeMode = ImageSizeMode.BestFit;

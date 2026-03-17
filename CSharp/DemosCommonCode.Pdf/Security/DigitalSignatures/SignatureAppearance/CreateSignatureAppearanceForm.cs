@@ -10,10 +10,10 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.DigitalSignatures;
 using Vintasoft.Imaging.Pdf.UI;
 
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Imaging.Codecs;
+using CommonCode.Imaging;
+using CommonCode.Imaging.Codecs;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to create signature field appearance.

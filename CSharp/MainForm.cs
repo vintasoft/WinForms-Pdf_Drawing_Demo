@@ -22,10 +22,10 @@ using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.Pdf.Tree.OptionalContent;
 using Vintasoft.Imaging.Pdf.Tree.Patterns;
 
-using DemosCommonCode;
-using DemosCommonCode.Pdf;
-using DemosCommonCode.Pdf.JavaScript;
-using DemosCommonCode.Imaging;
+using CommonCode;
+using CommonCode.Pdf;
+using CommonCode.Pdf.JavaScript;
+using CommonCode.Imaging;
 
 namespace PdfDrawingDemo
 {

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Drawing;
 
 using Vintasoft.Imaging;
@@ -10,7 +10,7 @@ using Vintasoft.Imaging.Pdf.Tree.Fonts;
 using Vintasoft.Imaging.Utils;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
-using DemosCommonCode;
+using CommonCode;
 
 namespace PdfDrawingDemo
 {

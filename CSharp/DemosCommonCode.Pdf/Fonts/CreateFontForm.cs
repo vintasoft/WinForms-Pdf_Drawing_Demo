@@ -10,10 +10,10 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 
-using DemosCommonCode.Pdf.Security;
-using DemosCommonCode.Imaging;
+using CommonCode.Pdf.Security;
+using CommonCode.Imaging;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to create new PDF font.

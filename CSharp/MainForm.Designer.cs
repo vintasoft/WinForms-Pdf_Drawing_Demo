@@ -1,4 +1,4 @@
-namespace PdfDrawingDemo
+﻿namespace PdfDrawingDemo
 {
     partial class MainForm
     {
@@ -80,7 +80,7 @@ namespace PdfDrawingDemo
             this.panel3 = new System.Windows.Forms.Panel();
             this.imageViewer1 = new Vintasoft.Imaging.UI.ImageViewer();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.imageViewerToolStrip1 = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.imageViewerToolStrip1 = new CommonCode.Imaging.ImageViewerToolStrip();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -562,7 +562,7 @@ namespace PdfDrawingDemo
         private System.Windows.Forms.Panel panel3;
         private Vintasoft.Imaging.UI.ImageViewer imageViewer1;
         private System.Windows.Forms.Panel panel2;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip imageViewerToolStrip1;
+        private CommonCode.Imaging.ImageViewerToolStrip imageViewerToolStrip1;
         private System.Windows.Forms.ToolStripMenuItem showLogoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem alignmentPanelElementContentAlignmentToolStripMenuItem;

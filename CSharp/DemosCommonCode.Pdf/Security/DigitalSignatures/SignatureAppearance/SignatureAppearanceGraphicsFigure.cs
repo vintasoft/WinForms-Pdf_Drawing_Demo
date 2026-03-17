@@ -12,7 +12,7 @@ using Vintasoft.Imaging.Fonts;
 using System.IO;
 using Vintasoft.Imaging.Pdf;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// Represents a PDF graphic figure that defines the appearance of the signature field.

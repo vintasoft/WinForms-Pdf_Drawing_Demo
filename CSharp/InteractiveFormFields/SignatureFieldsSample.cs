@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
@@ -12,8 +12,8 @@ using Vintasoft.Imaging.Pdf.Tree.DigitalSignatures;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
-using DemosCommonCode;
-using DemosCommonCode.Pdf.Security;
+using CommonCode;
+using CommonCode.Pdf.Security;
 
 
 namespace PdfDrawingDemo

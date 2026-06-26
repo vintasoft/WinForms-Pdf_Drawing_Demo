@@ -83,14 +83,14 @@
     <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <PackageReference Include="Vintasoft.Barcode" Version="16.0.3.1" />
-    <PackageReference Include="Vintasoft.Imaging" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.JavaScript" Version="12.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.UI" Version="12.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.UI" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Shared" Version="4.6.1.1" />
+    <PackageReference Include="Vintasoft.Barcode" Version="16.0.4.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.JavaScript" Version="12.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.UI" Version="12.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.UI" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.6.2.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemosCommonCode.Imaging\Codecs\CodecsFileFilters.cs">
